@@ -10,5 +10,5 @@ Rn only 1 version exists but i am working on the others so be ready for future u
 
 ## Reporting a Vulnerability
 
-To report a vulnerability simply send an email to zzqxyz19@gmail.com . 
-I will add all of the folowing bugfixes to the troubleshoot.txt file in the repo 👌
+To report a vulnerability, bug or suggest a feature simply send an email to zzqxyz19@gmail.com . 
+I will add all of the folowing bugfixes and features to add to the troubleshoot.txt file in the repo 👌
