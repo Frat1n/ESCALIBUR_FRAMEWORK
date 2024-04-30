@@ -1,4 +1,4 @@
-Escalibur Exploitation Framework
+# Escalibur Exploitation Framework
 
 Welcome to Escalibur Exploitation Framework! This is a simple post-exploitation framework written in Python. It provides a set of commands for executing shell commands, listing files, gathering system information, and attempting privilege escalation. Additionally, it includes information about popular exploits.
 
@@ -17,6 +17,9 @@ Available commands:
 - `exploit <exploit_name>`
 - `connect <ip_address>`
 - `set_ip <ip_address>`
+- `run_exploit`
+- `RHOST <ip_address>`
+- `LHOST <ip_address>`
 - `exit`
 
 ## Exploits
@@ -36,14 +39,30 @@ The framework includes information about the following popular exploits:
 To connect to a computer using its IP address, use the `connect <ip_address>` command. For example:
 connect 192.168.1.100
 
+bash
+Copy code
 
 ## Setting the IP Address of the Target Computer
 
 To set the IP address of the target computer, use the `set_ip <ip_address>` command. For example:
 set_ip 192.168.1.100
 
-python
+perl
 Copy code
+
+## Exploiting Vulnerabilities for Reverse Shell
+
+To exploit vulnerabilities and create a reverse shell connection with the target computer, use the `exploit <exploit_name>` command. For example:
+exploit eternalblue
+
+
+## Running Exploit
+
+To run the exploit configured with the specified RHOST and LHOST, use the `run_exploit` command.
+
+## Setting Remote Host (RHOST) and Local Host (LHOST)
+
+To set the IP address of the target computer (RHOST) and the local IP address (LHOST) for exploit purposes, use the `RHOST <ip_address>` and `LHOST <ip_address>` commands, respectively.
 
 ## Disclaimer
 
