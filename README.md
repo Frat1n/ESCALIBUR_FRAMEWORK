@@ -1,4 +1,4 @@
-# Escalibur Exploitation Framework
+Escalibur Exploitation Framework
 
 Welcome to Escalibur Exploitation Framework! This is a simple post-exploitation framework written in Python. It provides a set of commands for executing shell commands, listing files, gathering system information, and attempting privilege escalation. Additionally, it includes information about popular exploits.
 
@@ -9,13 +9,15 @@ To use the Escalibur Exploitation Framework, clone this repository to your local
 ## Usage
 
 Available commands:
-- `execute <command>`: Execute a shell command.
-- `list_files [<directory>]`: List files in the current directory or specified directory.
-- `system_info`: Show system information.
-- `escalate_privileges`: Attempt to escalate privileges.
-- `show_exploits`: Show information about available exploits.
-- `exploit <exploit_name>`: Run a specific exploit.
-- `exit`: Exit the framework.
+- `execute <command>`
+- `list_files [<directory>]`
+- `system_info`
+- `escalate_privileges`
+- `show_exploits`
+- `exploit <exploit_name>`
+- `connect <ip_address>`
+- `set_ip <ip_address>`
+- `exit`
 
 ## Exploits
 
@@ -29,6 +31,20 @@ The framework includes information about the following popular exploits:
 
    <!-- Add information about other exploits here -->
 
+## Connecting to a Computer
+
+To connect to a computer using its IP address, use the `connect <ip_address>` command. For example:
+connect 192.168.1.100
+
+
+## Setting the IP Address of the Target Computer
+
+To set the IP address of the target computer, use the `set_ip <ip_address>` command. For example:
+set_ip 192.168.1.100
+
+python
+Copy code
+
 ## Disclaimer
 
 This framework is intended for educational and ethical testing purposes only. Unauthorized use of this tool may violate applicable laws. Use at your own risk.
@@ -40,4 +56,3 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
