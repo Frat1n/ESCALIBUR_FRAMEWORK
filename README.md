@@ -5,6 +5,7 @@ Welcome to Escalibur Exploitation Framework! This is a simple post-exploitation 
 ## Installation
 
 To use the Escalibur Exploitation Framework, clone this repository to your local machine and run the Python script `post_exploitation_framework.py`.
+also change the Zap api key in the code with your actual zap api key and also change the local_ip = "127.0.0.1" in the code to your actual local ip aswell as the  port = 4444 
 
 ## Usage
 
@@ -46,9 +47,6 @@ Copy code
 
 To set the IP address of the target computer, use the `set_ip <ip_address>` command. For example:
 set_ip 192.168.1.100
-
-perl
-Copy code
 
 ## Exploiting Vulnerabilities for Reverse Shell
 
