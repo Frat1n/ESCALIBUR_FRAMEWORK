@@ -16,10 +16,10 @@ Available commands:
 - `show_exploits`
 - `exploit <exploit_name>`
 - `connect <ip_address>`
-- `set_ip <ip_address>`
+- `set_ip <ip_address> (OLD)`
 - `run_exploit`
-- `RHOST <ip_address>`
-- `LHOST <ip_address>`
+- `RHOST <ip_address> (NEW)`
+- `LHOST <ip_address> (NEW)`
 - `exit`
 
 ## Exploits
