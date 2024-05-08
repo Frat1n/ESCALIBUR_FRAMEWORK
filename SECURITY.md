@@ -2,7 +2,7 @@
 DONT USE THIS FOR ILLEGAL PURPOSES!!! ITS AN EDUCATIONAL ONLY PROJECT!!!
 ## Supported Versions
 
-Rn only 1 version exists but i am working on the others so be ready for future updates with more features.
+Rn 2 versions exist but i am working on the others so be ready for future updates with more features.
 
  |Version | Supported          |
  |------- | ------------------ |
